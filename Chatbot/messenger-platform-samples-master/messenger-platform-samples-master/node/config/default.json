@@ -1,0 +1,6 @@
+{
+    "appSecret": "a8db4777c0a45ddf9336e0c7bcfec7bd",
+    "pageAccessToken": "EAAZAVbn7Hjv8BAC7xONGDP9YdshokW1exrVjVhaqu8CgZBmwEIQrungUKRZCRapVBuzaZCwxrw5tnoK9GGBx3dI8bZCbFw9X2noOM2EaGlcdev5xG9UZAwKOipOCUmOhriwyZBkjC8QLSlqs9p5JzkGZBmscvPPRQiJy2aTiEnBOPQZDZD",
+    "validationToken": "bhasky",
+    "serverURL": "https://raas-dev.cloudapp.net:8094/webhook"
+}

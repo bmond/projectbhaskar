@@ -1,0 +1,28 @@
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-table {
+   position: fixed;
+    top: 250%;
+        left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.status {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.status .panel-title {
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 45px;
+    padding-top: 20px;
+    letter-spacing: -0.8px;
+}
+ 

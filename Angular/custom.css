@@ -1,0 +1,150 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.page-container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1600px;
+	background: url('../images/report-app-home.jpg');
+	position: relative;
+	min-height: 700px;
+}
+header{
+	width: 100%;
+	margin-top: 30px;
+	display: inline-block;
+}
+.profile-pic{
+	width:80px;
+	float: left;
+}
+.header-right{
+	background: #eeeeee;
+	padding:15px;
+	float: right;
+}
+.profile-details{
+    width: 60%;
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+}
+.profile-details ul{
+	margin: 0;
+	padding:0;
+}
+.profile-details ul li{
+	list-style-type: none;
+	display: block;
+	font-size: 14px;
+  font-family: "Segoe UI";
+  color: rgb(69, 69, 69);
+  line-height: 1.667;
+  text-align: left;
+}
+.basic-report-section{
+	width: 100%;
+	display: inline-block;
+	background: url('../images/white-trans-bg.png') repeat 0 0;
+	padding:30px;
+	margin-top: 30px;
+}
+
+h2{
+	font-size: 36px;
+  font-family: "Segoe UI";
+  color: rgb(69, 69, 69);
+  line-height: 1;
+  text-align: left;
+}
+
+.simple-text-style{
+  font-size: 18px;
+  font-family: "Segoe UI";
+  color: rgb(69, 69, 69);
+  line-height: 1.667;
+  text-align: left;
+  padding: 15px 0px;
+}
+.basic-report-section ul{
+	margin: 0;
+	padding:0;
+}
+.basic-report-section ul li{
+	list-style-type: none;
+	display: block;
+	font-size: 18px;
+  font-family: "Segoe UI";
+  color: rgb(69, 69, 69);
+  line-height: 1.667;
+  text-align: left;
+  background: url('../images/rectangle.png') no-repeat 0 0;
+  padding:0px 0px 0px 25px; 
+}
+
+.graph-grid-section{
+	width: 100%;
+	display: inline-block;
+	background: url('../images/grid-bg.png') repeat 0 0;
+	padding:30px;
+	margin-top: 30px;
+	min-height: 300px;
+}
+
+.detailed-report-section{
+	width: 100%;
+	display: inline-block;
+	background: url('../images/white-trans-bg.png') repeat 0 0;
+	padding:30px;
+	margin-top: 30px;
+}
+
+.btn-view-details {
+  font-size: 16px;
+  font-family: "Segoe UI";
+  color: rgb(254, 230, 0);
+  text-transform: uppercase;
+  line-height: 1.875;
+  text-align: left;
+  background-color: rgb(58, 181, 74);
+}
+
+table tr th{
+	background: #949494;
+	padding:10px;
+	font-size: 16px;
+  font-family: "Segoe UI";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.875;
+}
+
+table tr td{
+	padding:10px;
+	font-size: 14px;
+	font-family: "Segoe UI";
+	color: rgb(69, 69, 69);
+	line-height: 1.875;
+}
+.marginbottom60px{
+	margin-bottom: 60px;
+}
+.footer-section{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: rgb(58, 181, 74);
+	padding: 10px;
+}
+
+
+/*Added css for resume upload*/
+.resume-submit-section{
+	width: 100%;
+	display: inline-block;
+	background: url('../images/white-trans-bg.png') repeat 0 0;
+	padding:30px;
+	margin-top: 30px;
+}

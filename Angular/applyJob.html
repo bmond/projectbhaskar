@@ -1,0 +1,59 @@
+<div class="container">
+	<header>
+		<div class="col-md-4 col-xs-12 col-sm-12 pull-left">
+			<a href="http://www.happiestminds.com/" target="_blank"><img src="templates/images/happiestminds-logo.jpg" class="img-responsive" alt="Happiest Minds" title="Happiest Minds"></a>
+		</div>
+		<div class="col-md-4 col-xs-12 col-sm-12 header-right">
+			<div class="profile-pic">
+				<img src="templates/images/profile-pic.jpg" class="img-responsive" alt="" title="">
+			</div>
+			<div class="profile-details">
+				<ul>
+					<li><b>Name:</b> <span>Happiest Minds</span></li>
+					<li><b>Company:</b> <span>Happiest Minds</span></li>
+					<li><b>Location:</b> <span>Bangalore</span></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<section class="basic-report-section">
+		<h2>Submit Resume</h2>
+	</section>
+    
+    <section class="resume-submit-section">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Username</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter username" ng-model="email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" ng-model="password">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPhone1">Phone Number (format: xxxxx-xxxxx):</label><br/>
+                <input id="phone"  placeholder="Enter phone number" class="form-control" type="tel" pattern="^\d{5}-\d{5}$" ng-model="contact" required >
+            </div>
+            <div class="form-group">
+                <label for="exampleInputName1">Name</label>
+                <input type="name" class="form-control" id="exampleInputName1" placeholder="Enter name" ng-model="name">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputFile">Upload resume</label>
+                <input type="file" id="exampleInputFile" file-model="myFile">
+                <p class="help-block">Please upload your resume in .docx or .pdf format</p>
+            </div>
+            <button type="submit" class="btn btn-default" ng-click="submit()">Submit</button> 
+        </form>
+    </section>
+    
+	<button type="button" class="btn btn-success center-block"
+              ng-click="add()" >Update Comments</button>
+			
+</div>
+
+<footer class="footer-section">
+	
+</footer>
+
